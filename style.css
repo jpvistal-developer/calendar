@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(8, 8, 8);
+}
+
+table#calendar {
+    border-collapse: collapse;
+}
+
+table#calendar tr {
+    height: 80px;
+}
+
+table#calendar tr:first-child {
+    height: 50px;
+}
+
+table#calendar th {
+    background-color: #8e6eff;
+}
+
+table#calendar td,
+table#calendar th {
+    width: 145px;
+    border: 1px solid rgb(216, 216, 162);
+}
+
+table#calendar td {
+    vertical-align: top;
+    height: 120px;
+}
+
+form label {
+    width: 100px;
+    display: inline-block;
+}
+
+p.error-message {
+    color: crimson;
+}
+
+span.ui-icon {
+    position: relative;
+    float: right;
+    top: 6px;
+}
+
+.done {
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(23, 173, 223);
+    border-radius: 5px;
+}
+
+.input-padding {
+    padding: 5px
+}
+
+.my {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.event-holder {
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.events-item {
+    cursor: move;
+    text-align: center;
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.close {
+    background-color: red;
+    border-radius: 40%;
+    margin-right: 5px;
+    cursor: pointer;
+}
